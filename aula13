@@ -1,0 +1,35 @@
+# # texto = "Isso é uma string de exemplo"
+# # comprimento = len(texto)
+# # print(f"O comprimento da string é {comprimento}.")
+
+# cobra= 'Estou aprendendo python'
+# if 'python' in cobra:
+#     print('Tem')
+# else:
+#     print('não tem')
+
+# nome= input('escreva seu nome >> ')
+# if nome.startswith('A') or nome.startswith('a'):
+#     print('Esse nome começa com A')
+# else:
+#     print('não começa com A')
+
+# senha= input('Digite sua senha >> ')    
+# verif= len(senha)
+# if verif >= 8 :
+#     print('Senha aceita')
+# else:
+#     ('A senha precisa ter pelo menos 8 caracteres')
+
+
+# num=input('digite um numero')
+# if num.isnumeric():
+#     print('Correto')
+# else:
+#     print('O que foi digitado não foi um numero')
+
+
+
+palavra=input('escreva algo ')
+a=palavra.count('a')
+print(f"Essa palavra tem: {a}, a's ")
